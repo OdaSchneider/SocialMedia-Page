@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GlobeBusters</title>
+    <link rel="icon" type="image/x-icon" href="img/icon/logo.svg">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='fonts.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='media.css'>
+    <script src='script.js'></script>
+    <script src='data.js'></script>
+    <script src='template.js'></script>
+</head>
+
+<body onload="render()">
+
+    <div class="header">
+        <h1>GlobeBusters</h1>
+        <div class="searchfield">
+            <img src="img/icon/search.ico">
+            <input id="search" placeholder="Suchen" onkeyup="search()">
+        </div>
+        <div class="headerIcons">
+            <img src="img/icon/home.ico">
+            <img src="img/icon/send.ico">
+            <img src="img/icon/plus.ico">
+            <img src="img/icon/compass.ico">
+            <img src="img/icon/heart.ico">
+            <img class="headerProfilePicture" src="img/profile.jpg">
+        </div>
+    </div>
+
+    <div id="responsive" class="responsive d-none">
+        <div id="responsiveNavButton" class="responsiveNavButton" onclick="openNav()">
+            <img src="img/icon/menu.ico">
+        </div>
+        <div class="responsiveMenu">
+            <img class="responsiveIcon" src="img/icon/home.ico">
+            <img class="responsiveIcon" src="img/icon/send.ico">
+            <img class="responsiveIcon" src="img/icon/plus.ico">
+            <img class="responsiveIcon" src="img/icon/compass.ico">
+            <img class="responsiveIcon" src="img/icon/hearts.ico">
+            <img class="responsiveProfile" src="img/profile.jpg">
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="content-shared">
+            <div id="stories" class="stories"></div>
+
+            <div id="posts" class="posts"></div>
+        </div>
+
+        <div class="content-recommendation">
+            <div class="sticky">
+                <div class="user">
+                    <img src="img/profile.jpg" class="profilepicture">
+                    <div class="names">
+                        <span class="username">oda.watt</span>
+                        <span class="name">Oda Schneider</span>
+                    </div>
+                    <button>Wechseln</button>
+                </div>
+
+                <div class="content-recommendation-headline">
+                    <p>Vorschläge für dich</p>
+                    <button>Alle ansehen</button>
+                </div>
+
+                <div class="user">
+                    <img src="img/rec1.jpg" class="profilepicture smallprofilepic">
+                    <div class="names">
+                        <span class="username">Samsara</span>
+                        <span class="name">Neu auf GlobeBusters</span>
+                    </div>
+                    <button>Folgen</button>
+                </div>
+                <div class="user">
+                    <img src="img/rec2.jpg" class="profilepicture smallprofilepic">
+                    <div class="names">
+                        <span class="username">FlotteFine</span>
+                        <span class="name">für dich vorgeschlagen</span>
+                    </div>
+                    <button>Folgen</button>
+                </div>
+                <div class="user">
+                    <img src="img/rec3.jpg" class="profilepicture smallprofilepic">
+                    <div class="names">
+                        <span class="username">Paula0815</span>
+                        <span class="name">gefolgt von Mei +3 weitere</span>
+                    </div>
+                    <button>Folgen</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

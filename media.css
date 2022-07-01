@@ -1,0 +1,126 @@
+
+@media(max-width: 1250px){
+
+    .searchfield input{
+        width: 200px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1065px){
+    .searchfield{
+        display: none;
+    }
+}
+
+@media(max-width: 950px){
+    .content-recommendation{
+        display: none;
+    }
+
+    .headerIcons{
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 740px){
+    .headerIcons{
+        display: none;
+    }
+
+    .responsive{
+        display: block;
+    }
+
+    h1{
+        margin-left: 50px;
+    }
+
+    .stories{
+        width: 400px;
+    }
+
+    .post{
+        width: 400px;
+    }
+
+    .postimage{
+        width: 400px;
+    }
+}
+
+@media(max-width: 550px){
+    .stories{
+        width: 350px;
+    }
+
+    .post{
+        width: 350px;
+    }
+
+    .postimage{
+        width: 350px;
+    }
+}
+
+@media(max-width: 470px){
+    .profilepicture{
+        width: 50px;
+        height: 50px;
+    }
+
+    .stories p{
+        font-size: 14px;
+    }
+
+    .stories{
+        width: 300px;
+    }
+
+    .post{
+        width: 300px;
+    }
+
+    .postimage{
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 420px){
+    .responsiveMenu{
+        flex-direction: row;
+    }
+
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 350px){
+    .stories{
+        width: 250px;
+    }
+
+    .post{
+        width: 250px;
+    }
+
+    .postimage{
+        width: 250px;
+        height: 300px;
+    }
+
+    h1{
+        margin-left: 16px;
+    }
+
+    .responsive{
+        margin-right: 24px;
+    }
+}
